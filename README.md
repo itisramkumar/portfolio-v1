@@ -1,71 +1,133 @@
-# Portfolio Versions
+# 🌐 Portfolio Website v1
 
-A curated collection of my personal portfolio websites built throughout my frontend development journey.
+My first personal portfolio website built from scratch using **HTML**, **CSS**, and **JavaScript**.
 
-This repository serves as a version archive where I experiment with new technologies, improve design principles and refine user experience while documenting my growth as a developer.
+This project represents my journey of learning modern frontend development by focusing on the fundamentals before moving to frameworks like React and Next.js.
 
----
+## 🔗 Live Website
 
-## 📖 About
-
-Each portfolio version represents a milestone in my learning process.
-
-As I continue exploring modern web development, every iteration introduces improvements in areas such as:
-
-- Responsive Design
-- Accessibility
-- Performance Optimization
-- UI/UX Design
-- Code Organization
-- Modern JavaScript
-- React Development
-
-Rather than replacing previous work, each version is preserved to showcase the progression of my skills over time.
-
-
-## 🎯 Objectives
-
-This repository is maintained to:
-
-- Practice modern frontend development
-- Experiment with different portfolio designs
-- Improve code quality and maintainability
-- Track personal growth over time
-- Showcase practical web development projects
+https://itisramkumar.github.io/portfolio-v1/
 
 ---
 
-## 🛠 Technologies
+## 📸 Preview
 
-Depending on the version, the portfolio may include:
+<img width="1920" height="1020" alt="Screenshot 2026-08-05 152112" src="https://github.com/user-attachments/assets/8773329c-60cf-4097-9773-e03d5b9aba33" />
+
+---
+
+## ✨ Features
+
+- Responsive design for desktop, tablet, and mobile
+- Interactive navigation with smooth scrolling
+- Personal introduction and career journey
+- Timeline with scroll-based progress animation
+- Project showcase
+- Technical skills section
+- Publication showcase
+- Personal mission statement
+- Functional contact form using Web3Forms
+- Custom favicon and branding
+- Clean and minimal UI
+
+---
+
+## 🛠️ Built With
 
 - HTML5
 - CSS3
-- JavaScript
-- React
-- Firebase
-- Git
+- JavaScript (ES6)
+- Web3Forms
 - GitHub Pages
 
 ---
 
-## 📈 Development Philosophy
+## 📂 Project Structure
 
-Every new version focuses on improving one or more of the following:
-
-- Better user experience
-- Cleaner architecture
-- Faster loading performance
-- Responsive layouts
-- Accessibility improvements
-- Modern development practices
-
-Small, consistent improvements over time lead to better software.
+```
+Portfolio-Versions/
+│
+├── version_1/
+│   ├── index.html
+│   ├── style.css
+│   ├── script.js
+│   └── assets/
+│
+└── README.md
+```
 
 ---
 
-## 📄 License
+## 🎯 Purpose
 
-This repository is intended for learning, experimentation and personal portfolio development.
+The purpose of this project was to strengthen my understanding of:
 
-Feel free to explore the code for educational purposes.
+- Semantic HTML
+- Responsive Web Design
+- CSS Layouts (Flexbox & Grid)
+- CSS Animations
+- DOM Manipulation
+- JavaScript Event Handling
+- Website Deployment with GitHub Pages
+
+Rather than relying on templates or frameworks, I wanted to build every section myself to understand how websites work from the ground up.
+
+---
+
+## 🚀 Future Roadmap
+
+This repository will continue to evolve through multiple versions.
+
+### ✅ Version 1
+- HTML
+- CSS
+- JavaScript
+
+### 🔜 Version 2
+- Rebuild using React
+- Component-based architecture
+- Improved animations
+- Better state management
+
+### 🔜 Version 3
+- Migrate to Next.js
+- SEO optimization
+- Dynamic routing
+- Performance improvements
+- Blog integration
+- Enhanced accessibility
+
+---
+
+## 👨‍💻 About Me
+
+I am a Computer Science and Engineering graduate interested in:
+
+- Software Engineering
+- Artificial Intelligence
+- Data Analytics
+- Research
+- Full Stack Development
+
+I enjoy building technology that solves practical real-world problems.
+
+---
+
+## 📫 Connect With Me
+
+Portfolio:
+https://itisramkumar.github.io/portfolio-v1/
+
+LinkedIn:
+https://www.linkedin.com/in/ramkumar47
+
+GitHub:
+https://github.com/itisramkumar
+
+Email:
+mailto:rajiniram49@gmail.com
+
+---
+
+
+© 2026 R.T. Ram Kumar. All Rights Reserved.
