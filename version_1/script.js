@@ -14,7 +14,7 @@ function updateTimeline() {
     const windowHeight = window.innerHeight;
 
     // Progress starts when timeline enters viewport
-    const start = windowHeight * 0.2;
+    const start = windowHeight * 0.4;
 
     // Progress ends when timeline leaves viewport
     const end = rect.height + windowHeight * 0.2;
