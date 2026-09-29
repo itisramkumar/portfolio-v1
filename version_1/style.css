@@ -147,6 +147,7 @@ h1{
 
 .abt-section{
     background: var(--surface);
+    scroll-margin-top: 70px;
     padding: 5rem 8%;
 }
 .abt-section h2{
@@ -295,6 +296,7 @@ h1{
 
 .work-section{
     background: var(--surface);
+    scroll-margin-top: -10px;
     padding: 5rem 8%;
 }
 .work-section h2{
@@ -342,6 +344,7 @@ h1{
     display: flex;
     gap: 0.5rem;
     flex-wrap: wrap;
+    
     margin-bottom: 1rem;
 }
 .tech-stack span{
@@ -376,6 +379,7 @@ h1{
 
 .skill-section{
     background-color: var(--surface);
+    scroll-margin-top: 150px;
     padding:5rem 8%;
 }
 .skill-section h2{
