@@ -68,25 +68,26 @@ window.addEventListener("resize", updateTimeline);
 window.addEventListener("load", updateTimeline);
 
 // media query for menu-toggle
-const menuBtn = document.querySelector(".menu-toggle");
+const menuToggle = document.querySelector(".menu-toggle");
 const nav = document.querySelector("nav");
 
 menuToggle.addEventListener("click", () => {
-
     nav.classList.toggle("active");
 
+    const isExpanded = nav.classList.contains("active");
     const icon = menuToggle.querySelector("i");
 
-    if(nav.classList.contains("active")){
+    menuToggle.setAttribute("aria-expanded", String(isExpanded));
+    menuToggle.setAttribute(
+        "aria-label",
+        isExpanded ? "Close navigation menu" : "Open navigation menu"
+    );
 
+    if (isExpanded) {
         icon.classList.remove("fa-bars");
         icon.classList.add("fa-xmark");
-
-    }else{
-
+    } else {
         icon.classList.remove("fa-xmark");
         icon.classList.add("fa-bars");
-
     }
-
 });
